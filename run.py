@@ -6,7 +6,6 @@ import logging
 import os
 import re
 import sys
-import requests
 
 logging.basicConfig(format="%(message)s", level=logging.WARNING)
 logger = logging.getLogger(__name__)
