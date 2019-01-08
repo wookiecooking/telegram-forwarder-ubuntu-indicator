@@ -80,7 +80,6 @@ class Indicator():
                     logger.debug([strftime("%Y-%m-%d %H:%M:%S", gmtime()), "forwardNews", event.message.to_id.channel_id, event.message.message])
                     await client.forward_messages(config.get("news", "relay_channel"), event.message)
             except AttributeError:
-                notify.Notification.new("<b>Telegram_Forwarder</b>", "An error has occured, review logs", None).show()
                 pass
                 
         client.start()
