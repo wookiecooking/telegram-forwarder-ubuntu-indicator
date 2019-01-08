@@ -1,7 +1,7 @@
-# telegram-forwarder-user
+# telegram-forwarder-ubuntu-indicator
 
-A Gnome based indicator to forward telegram messages
+A Ubuntu indicator to forward telegram messages
 
 ## Screenshot
 
-![telegram-forwarder-user](screenshot.png?raw=true)
+![telegram-forwarder-ubuntu-indicator](screenshot.png?raw=true)
